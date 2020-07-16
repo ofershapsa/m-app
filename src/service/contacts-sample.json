@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Ofer",
+        "email": "ofer@gmail.com"
+    },
+    {
+        "id": 2,
+        "name": "Milobavitch",
+        "email": "nahman@walla.co.il"
+    },
+    {
+        "id": 3,
+        "name": "Rambam",
+        "email": "god@yahoo.com"
+    },
+    {
+        "id": 4,
+        "name": "Moshilo",
+        "email": "dlkjldsakd@yahoo.com"
+    }
+]
