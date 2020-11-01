@@ -16,7 +16,7 @@
     "react-scripts": "2.1.1",
     "reactstrap": "^7.0.0"
   },
- "proxy": "https://beckend-mbank.herokuapp.com/",
+  "proxy": "https://beckend-mbank.herokuapp.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
