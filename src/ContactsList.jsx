@@ -122,7 +122,7 @@ export default class ContactsList extends Component {
   }
 
   componentDidMount() {
-    axios.get(`http://localhost:8080/getAll`)
+    axios.get('https://beckend-mbank.herokuapp.com/getAll')
       .then(res => {
         const contacts = res.data;
         this.setState({ contacts: contacts });
