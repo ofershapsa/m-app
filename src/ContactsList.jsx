@@ -58,7 +58,7 @@ export default class ContactsList extends Component {
     event.preventDefault();
     const id = this.state.clientToDelete.id
 
-    axios.delete(`http://localhost:8080/delete/${id}`)
+    axios.delete(`https://beckend-mbank.herokuapp.com/delete/${id}`)
       .then(res => {
         console.log(res);
         console.log(res.data);
@@ -70,8 +70,8 @@ export default class ContactsList extends Component {
     event.preventDefault();
     const id = this.state.editedContant.id
     const { name, age } = this.state.editedContant
-    axios.put(`http://localhost:8080/update/${id}/
-   ${name}/${age} `
+    axios.put(`https://beckend-mbank.herokuapp.com/update/${id}/
+    ${name}/${age} `
 
     )
       .then((response) => {
@@ -108,7 +108,7 @@ export default class ContactsList extends Component {
   handleSubmit = event => {
     event.preventDefault();
     const { name, age } = this.state.editedContant
-    axios.post('http://localhost:8080/add', { name: name, age: age }
+    axios.post('https://beckend-mbank.herokuapp.com//add', { name: name, age: age }
 
     )
       .then(res => {
